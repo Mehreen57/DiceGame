@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Roll the dice Game</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="roll-the-dice-style.css">
+</head>
+
+<body>
+    <!-- <h1>Roll The Dice</h1> -->
+    <section class="outer-wrapper">
+        <div class="wrapper clearfix">
+            <div class="wrapper_inner">
+                <div class="player-0-panel active">
+                    <div class="player-name" id="name-0">Player 1</div>
+                    <div class="player-score" id="score-0">43</div>
+                    <div class="player-current-box">
+                        <div class="player-current-label">Current</div>
+                        <div class="player-current-score" id="current-0">11</div>
+                    </div>
+                </div>
+
+                <div class="player-1-panel">
+                    <div class="player-name" id="name-1">Player 2</div>
+                    <div class="player-score" id="score-1">72</div>
+                    <div class="player-current-box">
+                        <div class="player-current-label">Current</div>
+                        <div class="player-current-score" id="current-1">0</div>
+                    </div>
+                </div>
+            </div>
+            <!--wrapper_inner-->
+
+            <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+            <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+            <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+
+            <input type="text" placeholder="Final Score" id="final_score">
+
+            <img src="img/dice-5.png" alt="Dice" class="dice" id="dice1">
+            <img src="img/dice-5.png" alt="Dice" class="dice" id="dice2">
+        </div>
+        <!--wrapper clearfix-->
+        <div class="copyright">
+            <h4>Designed and Developed by Jonas schmedtmann</h4>
+            <h5>Re-developed by Mehreen Fayaz ( for education purpose only )</h5>
+        </div>
+        <!--copyright-->
+    </section>
+    <!-- <script src="roll-the-dice.js" async defer></script> -->
+    <script src="challeges-changes.js" async defer></script>
+</body>
+
+</html>
