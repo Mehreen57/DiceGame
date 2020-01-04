@@ -1,1 +1,2 @@
 # DiceGame
+Rules:
