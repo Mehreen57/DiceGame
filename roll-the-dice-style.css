@@ -180,3 +180,32 @@ i {
     line-height: 1.5;
     text-align: center;
 }
+
+
+/* responsive */
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+
+ }
+
+ @media only screen and (max-width: 480px){ 
+    .player-0-panel, .player-1-panel{
+        padding: 0;
+    }
+    .btn-new{
+        top: 22px;
+        font-size: 18px;
+    }
+    .player-name{
+        font-size: 25px;
+        margin-top: 60px;
+    }
+    .player-score{
+        margin-bottom: 60px;
+        font-size: 65px;
+    }
+}
+
+ @media only screen and (min-width: 320px) and (max-width: 479px){ 
+
+}
+
